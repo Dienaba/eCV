@@ -1,1 +1,26 @@
+header {
+  background-color: red;
+}
 
+.presentation {
+  background-color: green;
+}
+
+.competences{
+  background: brown;
+}
+
+.formation {
+  background-color: violet; 
+}
+
+.experiences{
+  background-color: yellow;
+}
+
+.loisirs{
+  background: pink;
+}
+.contact {
+  background: grey;
+}
