@@ -32,7 +32,29 @@ ul {
 .formation {
   background-color: violet;
 }
+
+.blank {
+  border: 2px solid black;
+  display: flex;
+  margin: 25px;
+}
+.bts {
+  border: 2px solid black;
+    display: flex;
+    margin: 25px;
+}
+.lycee {
+  border: 2px solid black;
+    display: flex;
+    margin: 25px;
+}
+.date {
+  border:2px solid white;
+  margin: 30px;
+  padding: 25px;
+}
 /* Partit Formation*/
+
 /* Partit Experiences*/
 .experiences{
   background-color: yellow;
