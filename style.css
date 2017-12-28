@@ -1,26 +1,51 @@
-header {
-  background-color: red;
+/* Header */
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
 }
 
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+/* header */
+
+
+
+/* Coommencement du main*/
+/* Partit Présentation */
 .presentation {
   background-color: green;
 }
-
+/* Partit Présentation */
+/* Partit Compétences */
 .competences{
   background: brown;
 }
+/* Partit Compétences */
 
+/* Partit Formation*/
 .formation {
-  background-color: violet; 
+  background-color: violet;
 }
-
+/* Partit Formation*/
+/* Partit Experiences*/
 .experiences{
   background-color: yellow;
 }
-
+/* Partit Experiences*/
+/* Partit Loisirs*/
 .loisirs{
   background: pink;
 }
+/* Partit Loisirs*/
+/* Partit Contact*/
 .contact {
   background: grey;
 }
+/* Partit Contact*/
+/* Fin du main */
