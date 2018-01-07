@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title> Curriculum Vitae De Dienaba Camara</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://use.fontawesome.com/43b64fb6f1.js"></script>
   </head>
   <body>
     <header>
@@ -12,7 +13,7 @@
         <h3> CV DÉVELOPPEUR WEB </h3>
       </div>
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a href="#moi">PRÉSENTATION</a></li>
           <li><a href="#ecole">FORMATION</a></li>
           <li><a href="#compt">COMPÉTENCES</a></li>
@@ -27,19 +28,21 @@
       <section class="presentation">
         <!-- Titre " Présentation" en h1 ou h2 + Présentation de moi  -->
         <h1 id="moi">Présentation</h1>
+        <i class="fa fa-female" aria-hidden="true"></i>
+
         <p>Bonjour je me présente... </p>
       </section>
 
       <section class="formation">
         <!-- Titre " Formation" en h1 ou h2 + Présentation des formation effectuer "lycéé a maintenant" -->
         <h1 id="ecole">Formation</h1>
-
         <div class="blank">
           <div class="date">
             <p> Novembre 2017 /   Juin 2017 </p>
           </div>
           <div class="explication">
             <h3>Formation _Blank</h3>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
             <p> Association Belleville Citoyenne</p>
             <p> petite explication Développement web <!-- en hover--> </p>
           </div>
@@ -51,6 +54,7 @@
           </div>
           <div class="explication">
             <h3> BTS Management des Unités Commerciales (alternance)</h3>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
             <p> Formation INFA </p>
             <p> petite explication de muc <!-- en hover--> </p>
           </div>
@@ -63,6 +67,7 @@
           <div class="explication">
             <h3>  Bac Professionnel Commerce </h3>
             <p> Lycée Elisa Lemonnier </p>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
             <p> petite explication de bac pro commerce <!-- en hover--> </p>
           </div>
         </div>
@@ -71,6 +76,49 @@
       <section class="competences">
         <!-- Titre " Compérences" en h1 ou h2 + Mes compétence en information et dans le domaine de la vente -->
         <h1 id="compt">Compétences</h1>
+        <div class="endeux">
+          <div class="web">
+            <img src="" alt="">
+            <h3>Web</h3>
+            <ul class="align">
+              <li>HTML 5 </li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9734;</li>
+              <br>
+              <li>CSS </li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9734;</li>
+              <br>
+              <li>BootStrap </li>
+              <li>&#9733;&#9733;&#9733;&#9734;&#9734;</li>
+            </ul>
+          </div>
+          <div class="commerce">
+            <img src="" alt="">
+            <h3>Commerce</h3>
+            <ul>
+              <li>Sens du relationnel</li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9733;</li>
+              <br>
+              <li>Capacité d'écoute</li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9734;</li>
+              <br>
+              <li>Techniques de vente et d'inventaire</li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9734;</li>
+              <br>
+              <li>Encaissement</li>
+              <li>&#9733;&#9733;&#9733;&#9734;&#9734;</li>
+              <br>
+              <li>Réassort</li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9733;</li>
+              <br>
+              <li>Entretien de l'espace de vente</li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9734;</li>
+              <br>
+              <li>Plannogramme</li>
+              <li>&#9733;&#9733;&#9733;&#9733;&#9733;</li>
+              <br>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="experiences">
@@ -84,6 +132,7 @@
             <h3> Employée Commerciale</h3>
             <p class="dates"> CDD en Alternance de Novembre 2015 à Août 2017</p>
             <p>94130, Nogent-sur-Marne </p>
+            <button type="button" name="button">+ de détail</button>
           </div>
           <div class="sueryder">
             <div class="logo2">
@@ -92,6 +141,7 @@
               <h3> Vendeuse</h3>
               <p class="dates"> Stage, Juillet 2015 </p>
               <p>Tralee, Irlande</p>
+              <button type="button" name="button">+ de détail</button>
           </div>
           <div class="monop">
             <div class="logo3">
@@ -100,6 +150,7 @@
             <h3>Employée Commerciale</h3>
             <p class="dates"> CDD de Mars 2014 à Novembre 2014</p>
             <p> Paris </p>
+            <button type="button" name="button">+ de détail</button>
           </div>
           <div class="charlestown">
             <div class="logo4">
@@ -108,6 +159,7 @@
             <h3>Hôtesse d'accueil </h3>
             <p class="dates"> Intérim, Février 2014</p>
             <p> Printemps Haussman </p>
+            <button type="button" name="button">+ de détail</button>
           </div>
           <div class="manpower">
             <div class="logo5">
@@ -116,6 +168,7 @@
             <h3>Vendeuse</h3>
             <p class="dates"> Intérim de Mars 2014 à Novembre 2014</p>
             <p> Camaïeu, Super U, C & A, Castorama, Okaïdi, Dim </p>
+            <button type="button" name="button">+ de détail</button>
           </div>
         </div>
       </section>
@@ -123,6 +176,18 @@
       <section class="loisirs">
         <!-- Titre " Loisirs" en h1 ou h2 + Loisirs et distraction  -->
         <h1 id="leisure">Loisirs</h1>
+        <div class="separation">
+          <div class="shopping">
+            <i class="fa fa-shopping-bag fa-5x" aria-hidden="true"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="film">
+            <i class="fa fa-film fa-5x" aria-hidden="true"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
       </section>
 
       <section class="contact">

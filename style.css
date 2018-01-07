@@ -7,10 +7,13 @@
   height: 40vh;
 }
 
-ul {
+.menu {
   display: flex;
   justify-content: space-around;
   list-style: none;
+}
+li a {
+text-decoration: none;
 }
 /* header */
 
@@ -24,7 +27,21 @@ ul {
 /* Partit Compétences */
 .competences{
   background: brown;
+  height: 70vh;
 }
+
+.endeux {
+  display: flex;
+  justify-content: space-around;
+}
+.web {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  list-style: none;
+}
+
 /* Partit Compétences */
 
 /* Partit Formation*/
@@ -56,15 +73,14 @@ ul {
 
 /* Partit Experiences*/
 .experiences{
-  background-color: yellow;
-  height: 90vh;
+  height: 100vh;
 }
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 250px;
+  height: 40%;
   margin: 40px;
 }
 
@@ -116,11 +132,6 @@ ul {
   justify-content: center;
   color: red;
 }
-
-.dates {
-
-}
-
 .monoprix{
   border: 2px solid black;
   margin-left: 15px;
@@ -157,8 +168,34 @@ ul {
 /* Partit Loisirs*/
 .loisirs{
   background: pink;
+  height: 40vh;
+}
+
+.separation{
+  display: flex;
+
+}
+
+.shopping {
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.film {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 /* Partit Loisirs*/
+
 /* Partit Contact*/
 .contact {
   background: grey;
