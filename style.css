@@ -290,10 +290,12 @@ ul li {
 .shopping p {
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 .film p {
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 .fa.fa-shopping-bag.fa-5x {
   color: #ff0c0c;
