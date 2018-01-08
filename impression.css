@@ -1,4 +1,8 @@
 
-.contact, .menu, footer {
+.contact, .menu, footer, .loisirs {
+  display: none;
+}
+
+.competences img {
   display: none;
 }
