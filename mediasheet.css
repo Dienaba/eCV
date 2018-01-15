@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.jumbotron {
+  height: 50vh;
+}
+
+.jumbotron h1, h3 {
+  margin-left: 50px;
+}
+
+.menu {
+  width: 100%;
+  font-size: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.presentation{
+  height: 50%;
+  width: 100vw;
+}
+
+.fa.fa-cogs.fa-5x {
+  display: none;
+}
+.formation {
+  height: 50%;
+  width: 100vw;
+  margin: 0;
+}
+.fa.fa-angle-double-up.fa-2x, .fa.fa-graduation-cap.fa-3x  {
+  display: none;
+  }
+  
+.blank, .bts, .lycee {
+width: 40%;
+height: 50%;
+width: 100vw;
+}
+
+.experiences {
+  height: 50%;
+  width: 100vw;
+}
+
+.competences {
+  height: 50%;
+  width: 100vw;
+}
+.fa.fa-code.fa-5x {
+  display: none;
+}
+.loisirs{
+  height: 30%;
+  width: 100vw;
+}
+.fa.fa-shopping-bag.fa-5x {
+
+}
+.fa.fa-film.fa-5x {
+
+}
+.fa.fa-book.fa-5x {
+
+}
+.fa.fa-music.fa-5x {
+
+}
+
+.footer {
+
+}

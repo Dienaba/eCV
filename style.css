@@ -4,7 +4,6 @@
   padding: 0;
   color: #363636;
 }
-
 /* Body*/
 
 
@@ -38,7 +37,7 @@ hr {
   background-color: #363636;
   margin: 0;
   padding: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quattrocento', serif;
 
 }
 li a {
@@ -65,6 +64,7 @@ main {
 }
 /* Partit Présentation */
 .presentation {
+  height: 40vh;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -75,8 +75,8 @@ main {
   font-size: 20px;
 }
 .detail p {
-margin-left: 15px;
-color: #bc5255;
+  margin-left: 15px;
+  color: #bc5255;
 }
 .tata {
   display: flex;
@@ -217,6 +217,21 @@ color: white;
   height: 100%;
   border: 1px solid #919191;
   box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.monoprix .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.monoprix:hover .hover {
+  bottom: 0;
 }
 
 
@@ -227,6 +242,21 @@ color: white;
   height: 100%;
   border: 1px solid #919191;
   box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.sueryder .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.sueryder:hover .hover {
+  bottom: 0;
 }
 .monop {
   border: 2px solid black;
@@ -235,7 +265,23 @@ color: white;
   height: 100%;
   border: 1px solid #919191;
   box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
 }
+
+.monop .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.monop:hover .hover {
+  bottom: 0;
+}
+
 .charlestown {
   border: 2px solid black;
   margin-top: 25px;
@@ -244,7 +290,23 @@ color: white;
   height: 100%;
   border: 1px solid #919191;
   box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
 }
+
+.charlestown .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.charlestown:hover .hover {
+  bottom: 0;
+}
+
 .manpower {
   border: 2px solid black;
   margin-top: 25px;
@@ -252,19 +314,30 @@ color: white;
   height: 100%;
   border: 1px solid #919191;
   box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
 }
+
+.manpower .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.manpower:hover .hover {
+  bottom: 0;
+}
+
 /* Partit Experiences*/
 
 /* Partit Compétences */
 .competences{
-  height: 70vh;
+  height: 80vh;
   background-color: #f8f8f8;
-}
-.competences img {
-  width: 20%;
-  position: absolute;
-  margin-top: 275px;
-  margin-left: 120px;
+  font-size: 18px;
 }
 .competences h3{
   font-size: 25px;
@@ -276,13 +349,28 @@ color: white;
 .web {
   display: flex;
   flex-direction: column;
-
 }
+
 ul li {
   list-style: none;
   color: black;
 }
 
+
+.fa.fa-code {
+  color: #639fab;
+  position: absolute;
+  margin: 15px;
+  margin-top: 25%;
+  margin-left: 275px;
+}
+.fa.fa-cogs {
+  color: #639fab;
+  position: absolute;
+  margin: 15px;
+  margin-top: 30%;
+  margin-left: 550px;
+}
 /* Partit Compétences */
 
 /* Partit Loisirs*/
@@ -296,29 +384,48 @@ ul li {
   justify-content: center;
 }
 
-.shopping {
+.shopping, .film, .livre, .music {
   margin: 20px;
   padding: 20px;
 }
-.film {
-  margin: 20px;
-  padding: 20px;
-}
-.shopping p {
+
+.shopping p{
   display: flex;
   justify-content: center;
   font-weight: bold;
 }
+
 .film p {
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
 }
+
+.livre p {
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+}
+
+.music p {
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+}
+
 .fa.fa-shopping-bag.fa-5x {
-  color: #ff0c0c;
+  color: #22204f;
 }
 .fa.fa-film.fa-5x {
-  color: #130c9e;
+  color: #b33f62;
+}
+
+.fa.fa-book.fa-5x {
+  color: #f91b13;
+}
+
+.fa.fa-music.fa-5x {
+  color: #f3c677;
 }
 /* Partit Loisirs*/
 
