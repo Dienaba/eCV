@@ -1,1 +1,476 @@
-exemple 
+/* Body */
+* body {
+  margin: 0;
+  padding: 0;
+  color: #363636;
+}
+/* Body*/
+
+
+
+/* Début du header */
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-image: url(image/web.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Roboto',sans-serif;
+  font-weight: bold;
+  color: #27273a;
+}
+hr {
+  color: #19173a;
+}
+.jumbotron h1{
+  font-size: 35px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #363636;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Quattrocento', serif;
+
+}
+li a {
+text-decoration: none;
+color: white;
+}
+
+/* Fin du header */
+
+
+/* Coommencement du main*/
+main h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto',sans-serif;
+  font-size: 30px;
+  color: #363636;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  font-family: 'Oxygen', sans-serif;
+}
+/* Partit Présentation */
+.presentation {
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.presentation p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.detail p {
+  margin-left: 15px;
+  color: #bc5255;
+}
+.tata {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto',sans-serif;
+  font-size: 30px;
+  color: #363636;
+  margin: 0;
+  padding: 20px;
+}
+.tata .fa.fa-female.fa-2x {
+  color: #e56467;
+}
+
+/* Partit Présentation */
+
+/* Partit Formation*/
+.formation {
+  height: 80vh;
+  background-color: #f8f8f8;
+}
+
+.blank {
+  display: flex;
+}
+
+.bts {
+  display: flex;
+  margin-top: 25px;
+}
+
+.lycee {
+  display: flex;
+  margin-top: 25px;
+}
+.explication {
+  border: 5px solid #919191;
+  border-radius: 10px;
+  width: 55%;
+  padding-left: 15px;
+}
+
+.explication a {
+  color: #b5b5b5;
+}
+.date {
+  margin-right: 35px;
+  margin-top: 0;
+  padding: 25px;
+  font-size: 20px;
+}
+
+
+.diplome{
+  margin-right: 35px;
+  margin-top: 20px;
+  color: #363636;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap
+}
+
+.fa.fa-angle-double-up.fa-2x {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+/* Partit Formation*/
+
+/* Partit Experiences*/
+.experiences{
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 40%;
+  margin-top: 15px;
+}
+
+
+/* Logo*/
+.logo1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+.logo2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+.logo3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+.logo4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+.logo5 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+
+}
+/* Logo*/
+
+button {
+margin-left:125px;
+background-color: #919191;
+border-radius: 5px;
+color: white;
+}
+.texte h3 {
+  display: flex;
+  justify-content: center;
+}
+.texte p {
+  display: flex;
+  justify-content: center;
+}
+.monoprix{
+  border: 2px solid black;
+  margin-left: 15px;
+  width: 350px;
+  height: 100%;
+  border: 1px solid #919191;
+  box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.monoprix .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.monoprix:hover .hover {
+  bottom: 0;
+}
+
+
+.sueryder {
+  border: 2px solid black;
+  margin-left: 15px;
+  width: 350px;
+  height: 100%;
+  border: 1px solid #919191;
+  box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.sueryder .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.sueryder:hover .hover {
+  bottom: 0;
+}
+.monop {
+  border: 2px solid black;
+  margin-left: 15px;
+  width: 350px;
+  height: 100%;
+  border: 1px solid #919191;
+  box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.monop .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.monop:hover .hover {
+  bottom: 0;
+}
+
+.charlestown {
+  border: 2px solid black;
+  margin-top: 25px;
+  margin-left: 15px;
+  width: 350px;
+  height: 100%;
+  border: 1px solid #919191;
+  box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.charlestown .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.charlestown:hover .hover {
+  bottom: 0;
+}
+
+.manpower {
+  border: 2px solid black;
+  margin-top: 25px;
+  width: 350px;
+  height: 100%;
+  border: 1px solid #919191;
+  box-shadow: 3px 4px 10px #c0c0c0;
+  overflow: hidden;
+  position: relative;
+}
+
+.manpower .hover {
+  height: 60%;
+  width: 100%;
+  bottom: -60%;
+  background-color: #cbd0b9;
+  position: absolute;
+  transition: 1s bottom ease;
+}
+
+.manpower:hover .hover {
+  bottom: 0;
+}
+
+/* Partit Experiences*/
+
+/* Partit Compétences */
+.competences{
+  height: 80vh;
+  background-color: #f8f8f8;
+  font-size: 18px;
+}
+.competences h3{
+  font-size: 25px;
+}
+.endeux {
+  display: flex;
+  justify-content: space-around;
+}
+.web {
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none;
+  color: black;
+}
+
+
+.fa.fa-code {
+  color: #639fab;
+  position: absolute;
+  margin: 15px;
+  margin-top: 25%;
+  margin-left: 275px;
+}
+.fa.fa-cogs {
+  color: #639fab;
+  position: absolute;
+  margin: 15px;
+  margin-top: 30%;
+  margin-left: 550px;
+}
+/* Partit Compétences */
+
+/* Partit Loisirs*/
+.loisirs{
+  height: 40vh;
+  background-color: #f4f4f4;
+}
+
+.separation{
+  display: flex;
+  justify-content: center;
+}
+
+.shopping, .film, .livre, .music {
+  margin: 20px;
+  padding: 20px;
+}
+
+.shopping p{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.film p {
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+}
+
+.livre p {
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+}
+
+.music p {
+ display: flex;
+ justify-content: center;
+ font-weight: bold;
+}
+
+.fa.fa-shopping-bag.fa-5x {
+  color: #22204f;
+}
+.fa.fa-film.fa-5x {
+  color: #b33f62;
+}
+
+.fa.fa-book.fa-5x {
+  color: #f91b13;
+}
+
+.fa.fa-music.fa-5x {
+  color: #f3c677;
+}
+/* Partit Loisirs*/
+
+/* Partit Contact*/
+.contact {
+  height: 115vh;
+  background-color: #f8f8f8;
+}
+.formulaire {
+  height: 100%;
+  width: 100%;
+}
+iframe{
+  height: 90%;
+  width: 100%;
+}
+/* Partit Contact*/
+/* Fin du main */
+
+/* Début du Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #363636;
+  color: white;
+  position: relative;
+}
+.fa.fa-google-plus-square.fa-4x:hover{
+  transform: scale(1.1 , 1.1);
+}
+
+.fa.fa-instagram.fa-4x:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.fa.fa-github.fa-4x:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.fa.fa-facebook-square.fa-4x:hover {
+  transform: scale(1.1 , 1.1);
+}
+
+.fa.fa-linkedin-square.fa-4x:hover {
+  transform: scale(1.1 , 1.1);
+}
+/* Fin du Footer */
