@@ -3,6 +3,7 @@ body {
   height: 100vh;
 }
 
+
 .jumbotron {
   height: 50vh;
 }
@@ -36,7 +37,7 @@ body {
 .fa.fa-angle-double-up.fa-2x, .fa.fa-graduation-cap.fa-3x  {
   display: none;
   }
-  
+
 .blank, .bts, .lycee {
 width: 40%;
 height: 50%;
