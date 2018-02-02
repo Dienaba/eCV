@@ -14,20 +14,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 60vh;
   background-image: url(image/web.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  font-family: 'Roboto',sans-serif;
-  font-weight: bold;
-  color: #27273a;
 }
+
+
 hr {
   color: #19173a;
 }
 .jumbotron h1{
-  font-size: 35px;
+  font-size: 60px;
+  font-family: "BallparkWeiner", georgia, times, times New Roman, cursive;
+  line-height: 100%;
+  font-weight: lighter;
+  color: black;
+
 }
 
 .menu {
@@ -37,12 +41,12 @@ hr {
   background-color: #363636;
   margin: 0;
   padding: 10px;
-  font-family: 'Quattrocento', serif;
-
 }
+
 li a {
 text-decoration: none;
 color: white;
+font-family: 'Poppins', sans-serif;
 }
 
 /* Fin du header */
@@ -69,7 +73,9 @@ main {
   padding: 0;
   background-color: #f4f4f4;
 }
-.presentation p {
+.presentation p, h3 {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
   font-size: 20px;
@@ -79,8 +85,6 @@ main {
   color: #bc5255;
 }
 .tata {
-  display: flex;
-  justify-content: center;
   font-family: 'Roboto',sans-serif;
   font-size: 30px;
   color: #363636;
@@ -88,9 +92,27 @@ main {
   padding: 20px;
 }
 .tata .fa.fa-female.fa-2x {
+  display: flex;
+  justify-content: center;
   color: #e56467;
 }
+.iconesduhaut  {
+display: flex;
+justify-content: center;
+}
+.fa.fa-envelope-o.fa-2x {
+  margin-right: 10px;
+}
+.fa.fa-github.fa-2x {
 
+}
+.fa.fa-envelope-o.fa-2x:hover {
+   transform: scale(1.3, 1.3);
+}
+
+.fa.fa-github.fa-2x:hover {
+  transform: scale(1.3 , 1.3);
+}
 /* Partit Présentation */
 
 /* Partit Formation*/
@@ -101,15 +123,18 @@ main {
 
 .blank {
   display: flex;
+  justify-content: center;
 }
 
 .bts {
   display: flex;
+  justify-content: center;
   margin-top: 25px;
 }
 
 .lycee {
   display: flex;
+  justify-content: center;
   margin-top: 25px;
 }
 .explication {
@@ -147,7 +172,7 @@ main {
 
 /* Partit Experiences*/
 .experiences{
-  height: 90vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -157,8 +182,8 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 40%;
-  margin-top: 15px;
+  height: 400px;
+  margin-top: 35px;
 }
 
 
@@ -181,19 +206,7 @@ main {
   width: 100%;
   height: 40%;
 }
-.logo4 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40%;
-}
-.logo5 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40%;
 
-}
 /* Logo*/
 
 button {
@@ -212,6 +225,7 @@ color: white;
 }
 .monoprix{
   border: 2px solid black;
+  border-radius: 15px;
   margin-left: 15px;
   width: 350px;
   height: 100%;
@@ -238,6 +252,7 @@ color: white;
 .sueryder {
   border: 2px solid black;
   margin-left: 15px;
+  border-radius: 15px;
   width: 350px;
   height: 100%;
   border: 1px solid #919191;
@@ -261,6 +276,7 @@ color: white;
 .monop {
   border: 2px solid black;
   margin-left: 15px;
+  border-radius: 15px;
   width: 350px;
   height: 100%;
   border: 1px solid #919191;
@@ -282,60 +298,11 @@ color: white;
   bottom: 0;
 }
 
-.charlestown {
-  border: 2px solid black;
-  margin-top: 25px;
-  margin-left: 15px;
-  width: 350px;
-  height: 100%;
-  border: 1px solid #919191;
-  box-shadow: 3px 4px 10px #c0c0c0;
-  overflow: hidden;
-  position: relative;
-}
-
-.charlestown .hover {
-  height: 60%;
-  width: 100%;
-  bottom: -60%;
-  background-color: #cbd0b9;
-  position: absolute;
-  transition: 1s bottom ease;
-}
-
-.charlestown:hover .hover {
-  bottom: 0;
-}
-
-.manpower {
-  border: 2px solid black;
-  margin-top: 25px;
-  width: 350px;
-  height: 100%;
-  border: 1px solid #919191;
-  box-shadow: 3px 4px 10px #c0c0c0;
-  overflow: hidden;
-  position: relative;
-}
-
-.manpower .hover {
-  height: 60%;
-  width: 100%;
-  bottom: -60%;
-  background-color: #cbd0b9;
-  position: absolute;
-  transition: 1s bottom ease;
-}
-
-.manpower:hover .hover {
-  bottom: 0;
-}
-
 /* Partit Experiences*/
 
 /* Partit Compétences */
 .competences{
-  height: 80vh;
+  height: 50vh;
   background-color: #f8f8f8;
   font-size: 18px;
 }
@@ -346,31 +313,8 @@ color: white;
   display: flex;
   justify-content: space-around;
 }
-.web {
-  display: flex;
-  flex-direction: column;
-}
-
-ul li {
-  list-style: none;
-  color: black;
-}
 
 
-.fa.fa-code {
-  color: #639fab;
-  position: absolute;
-  margin: 15px;
-  margin-top: 25%;
-  margin-left: 275px;
-}
-.fa.fa-cogs {
-  color: #639fab;
-  position: absolute;
-  margin: 15px;
-  margin-top: 30%;
-  margin-left: 550px;
-}
 /* Partit Compétences */
 
 /* Partit Loisirs*/
@@ -429,20 +373,6 @@ ul li {
 }
 /* Partit Loisirs*/
 
-/* Partit Contact*/
-.contact {
-  height: 115vh;
-  background-color: #f8f8f8;
-}
-.formulaire {
-  height: 100%;
-  width: 100%;
-}
-iframe{
-  height: 90%;
-  width: 100%;
-}
-/* Partit Contact*/
 /* Fin du main */
 
 /* Début du Footer */
@@ -454,19 +384,15 @@ footer {
   color: white;
   position: relative;
 }
+
+.fa.fa-envelope-o.fa-4x:hover {
+   transform: scale(1.1, 1.1);
+}
 .fa.fa-google-plus-square.fa-4x:hover{
   transform: scale(1.1 , 1.1);
 }
 
-.fa.fa-instagram.fa-4x:hover {
-  transform: scale(1.1 , 1.1);
-}
-
 .fa.fa-github.fa-4x:hover {
-  transform: scale(1.1 , 1.1);
-}
-
-.fa.fa-facebook-square.fa-4x:hover {
   transform: scale(1.1 , 1.1);
 }
 
