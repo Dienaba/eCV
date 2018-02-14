@@ -14,35 +14,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
-  background-image: url(image/web.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
-  font-family: 'Roboto',sans-serif;
-  font-weight: bold;
-  color: #27273a;
+  height: 60vh;
+  background-color: #d77a61;
+  text-shadow: 1px 1px 2px #4a5c65;
 }
-hr {
-  color: #19173a;
+.jumbotron h3 {
+  color: #d8b4a0;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #947f81;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
+
 .jumbotron h1{
-  font-size: 35px;
+  font-size: 60px;
+  font-family: 'Kaushan Script', cursive;
+  line-height: 100%;
+  font-size: 6em;
+  font-weight: lighter;
+  color: white;
+
 }
 
 .menu {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
-  background-color: #363636;
+
+  background-color: #9d5947;
   margin: 0;
   padding: 10px;
-  font-family: 'Quattrocento', serif;
-
+  font-family: 'Comfortaa', cursive;
 }
+
 li a {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: bold;
+
 }
 
 /* Fin du header */
@@ -53,7 +62,7 @@ main h1 {
   display: flex;
   justify-content: center;
   font-family: 'Roboto',sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   color: #363636;
   margin: 0;
   padding: 20px;
@@ -64,63 +73,88 @@ main {
 }
 /* Partit Présentation */
 .presentation {
-  height: 40vh;
+  height: 50vh;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fffbfb;
 }
-.presentation p {
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-}
-.detail p {
-  margin-left: 15px;
-  color: #bc5255;
-}
-.tata {
-  display: flex;
-  justify-content: center;
+.TitrePresentation {
   font-family: 'Roboto',sans-serif;
   font-size: 30px;
   color: #363636;
   margin: 0;
   padding: 20px;
 }
-.tata .fa.fa-female.fa-2x {
-  color: #e56467;
+.TitrePresentation .fa.fa-female.fa-2x {
+  display: flex;
+  justify-content: center;
+  color: #d77a61;
+}
+.deuxPartitPresentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px;
+}
+.partieDeuxPresentation, .partieUnePresentation {
+  justify-content: center;
+  font-size: 20px;
+}
+.iconesduhaut  {
+display: flex;
+justify-content: center;
+}
+.fa.fa-envelope-o.fa-2x {
+  margin-right: 10px;
+}
+.fa.fa-github.fa-2x {
+
+}
+.fa.fa-envelope-o.fa-2x:hover {
+   transform: scale(1.3, 1.3);
 }
 
+.fa.fa-github.fa-2x:hover {
+  transform: scale(1.3 , 1.3);
+}
 /* Partit Présentation */
 
 /* Partit Formation*/
 .formation {
   height: 80vh;
-  background-color: #f8f8f8;
+  background-color: #fff9f9;
 }
 
 .blank {
   display: flex;
+  justify-content: center;
 }
 
 .bts {
   display: flex;
+  justify-content: center;
   margin-top: 25px;
 }
 
 .lycee {
   display: flex;
+  justify-content: center;
   margin-top: 25px;
 }
+.explication h3 {
+  color: #363636;
+}
 .explication {
-  border: 5px solid #919191;
-  border-radius: 10px;
+  border: 2px solid #363636;
+  border-radius: 5px;
   width: 55%;
   padding-left: 15px;
 }
-
 .explication a {
-  color: #b5b5b5;
+  color: #fe5a59;
+}
+.btsMuc {
+  margin: 15px;
 }
 .date {
   margin-right: 35px;
@@ -147,61 +181,73 @@ main {
 
 /* Partit Experiences*/
 .experiences{
-  height: 90vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #fffbfb;
 }
-.container {
+.container2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 40%;
-  margin-top: 15px;
+  height: 400px;
+  margin-top: 35px;
 }
 
 
 /* Logo*/
 .logo1 {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 40%;
+  position: relative;
+}
+
+.logo1 > img {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 .logo2 {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 40%;
+  position: relative;
 }
-.logo3 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40%;
-}
-.logo4 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40%;
-}
-.logo5 {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 40%;
 
+.logo2 > img {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
+
+.logo3 {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  }
+
+  .logo3 > img {
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  }
 /* Logo*/
 
-button {
-margin-left:125px;
-background-color: #919191;
-border-radius: 5px;
-color: white;
-}
 .texte h3 {
   display: flex;
   justify-content: center;
@@ -211,11 +257,11 @@ color: white;
   justify-content: center;
 }
 .monoprix{
-  border: 2px solid black;
+  border-radius: 5px;
   margin-left: 15px;
   width: 350px;
   height: 100%;
-  border: 1px solid #919191;
+  border: 1px solid #d77a61;
   box-shadow: 3px 4px 10px #c0c0c0;
   overflow: hidden;
   position: relative;
@@ -225,9 +271,15 @@ color: white;
   height: 60%;
   width: 100%;
   bottom: -60%;
-  background-color: #cbd0b9;
   position: absolute;
   transition: 1s bottom ease;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e02828;
+}
+.monoprix:hover .hover p{
+  margin-left: 20px;
 }
 
 .monoprix:hover .hover {
@@ -236,11 +288,11 @@ color: white;
 
 
 .sueryder {
-  border: 2px solid black;
   margin-left: 15px;
+  border-radius: 5px;
   width: 350px;
   height: 100%;
-  border: 1px solid #919191;
+  border: 1px solid #19173a;
   box-shadow: 3px 4px 10px #c0c0c0;
   overflow: hidden;
   position: relative;
@@ -250,20 +302,27 @@ color: white;
   height: 60%;
   width: 100%;
   bottom: -60%;
-  background-color: #cbd0b9;
+  background-color: #9391a5;
   position: absolute;
   transition: 1s bottom ease;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+.sueryder:hover .hover p{
+  margin-left: 20px;
 }
 
 .sueryder:hover .hover {
   bottom: 0;
 }
+
 .monop {
-  border: 2px solid black;
   margin-left: 15px;
+  border-radius: 5px;
   width: 350px;
   height: 100%;
-  border: 1px solid #919191;
+  border: 1px solid #d77a61;
   box-shadow: 3px 4px 10px #c0c0c0;
   overflow: hidden;
   position: relative;
@@ -273,61 +332,19 @@ color: white;
   height: 60%;
   width: 100%;
   bottom: -60%;
-  background-color: #cbd0b9;
+  background-color: #d8b4a0;
   position: absolute;
   transition: 1s bottom ease;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #e02828;
+}
+.monop:hover .hover p{
+  margin-left: 20px;
 }
 
 .monop:hover .hover {
-  bottom: 0;
-}
-
-.charlestown {
-  border: 2px solid black;
-  margin-top: 25px;
-  margin-left: 15px;
-  width: 350px;
-  height: 100%;
-  border: 1px solid #919191;
-  box-shadow: 3px 4px 10px #c0c0c0;
-  overflow: hidden;
-  position: relative;
-}
-
-.charlestown .hover {
-  height: 60%;
-  width: 100%;
-  bottom: -60%;
-  background-color: #cbd0b9;
-  position: absolute;
-  transition: 1s bottom ease;
-}
-
-.charlestown:hover .hover {
-  bottom: 0;
-}
-
-.manpower {
-  border: 2px solid black;
-  margin-top: 25px;
-  width: 350px;
-  height: 100%;
-  border: 1px solid #919191;
-  box-shadow: 3px 4px 10px #c0c0c0;
-  overflow: hidden;
-  position: relative;
-}
-
-.manpower .hover {
-  height: 60%;
-  width: 100%;
-  bottom: -60%;
-  background-color: #cbd0b9;
-  position: absolute;
-  transition: 1s bottom ease;
-}
-
-.manpower:hover .hover {
   bottom: 0;
 }
 
@@ -335,8 +352,8 @@ color: white;
 
 /* Partit Compétences */
 .competences{
-  height: 80vh;
-  background-color: #f8f8f8;
+  height: 50vh;
+  background-color: #fff9f9;
   font-size: 18px;
 }
 .competences h3{
@@ -346,37 +363,14 @@ color: white;
   display: flex;
   justify-content: space-around;
 }
-.web {
-  display: flex;
-  flex-direction: column;
-}
-
-ul li {
-  list-style: none;
-  color: black;
-}
 
 
-.fa.fa-code {
-  color: #639fab;
-  position: absolute;
-  margin: 15px;
-  margin-top: 25%;
-  margin-left: 275px;
-}
-.fa.fa-cogs {
-  color: #639fab;
-  position: absolute;
-  margin: 15px;
-  margin-top: 30%;
-  margin-left: 550px;
-}
 /* Partit Compétences */
 
 /* Partit Loisirs*/
 .loisirs{
   height: 40vh;
-  background-color: #f4f4f4;
+  background-color: #fffbfb;
 }
 
 .separation{
@@ -388,89 +382,84 @@ ul li {
   margin: 20px;
   padding: 20px;
 }
-
+.shopping {
+    color: #dd001d;
+}
 .shopping p{
   display: flex;
   justify-content: center;
   font-weight: bold;
 }
-
+.shopping:hover {
+  transform: scale(1.3 , 1.3);
+}
+.film {
+   color: #4a5c65;
+}
 .film p {
  display: flex;
  justify-content: center;
  font-weight: bold;
 }
+.film:hover {
+   transform: scale(1.3, 1.3);
+}
 
+.livre {
+  color: #d8b4a0;
+}
 .livre p {
  display: flex;
  justify-content: center;
  font-weight: bold;
 }
-
+.livre:hover {
+  transform: scale(1.3 , 1.3);
+}
+.music {
+   color: #ead94c;
+}
 .music p {
  display: flex;
  justify-content: center;
  font-weight: bold;
 }
-
-.fa.fa-shopping-bag.fa-5x {
-  color: #22204f;
-}
-.fa.fa-film.fa-5x {
-  color: #b33f62;
+.music:hover {
+  transform: scale(1.3 , 1.3);
 }
 
-.fa.fa-book.fa-5x {
-  color: #f91b13;
-}
-
-.fa.fa-music.fa-5x {
-  color: #f3c677;
-}
 /* Partit Loisirs*/
 
-/* Partit Contact*/
-.contact {
-  height: 115vh;
-  background-color: #f8f8f8;
-}
-.formulaire {
-  height: 100%;
-  width: 100%;
-}
-iframe{
-  height: 90%;
-  width: 100%;
-}
-/* Partit Contact*/
 /* Fin du main */
 
 /* Début du Footer */
 
 footer {
+  background-color: #d77a61;
+  height: 20vh;
   display: flex;
-  justify-content: center;
-  background-color: #363636;
+  flex-direction: column;
+  align-items: center;
   color: white;
-  position: relative;
-}
-.fa.fa-google-plus-square.fa-4x:hover{
-  transform: scale(1.1 , 1.1);
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
 }
 
-.fa.fa-instagram.fa-4x:hover {
-  transform: scale(1.1 , 1.1);
+.fa.fa-arrow-circle-up.fa-3x{
+  color: #363636;
 }
 
-.fa.fa-github.fa-4x:hover {
-  transform: scale(1.1 , 1.1);
+.partieMail{
+  display: flex;
+  margin-left: 77%;
+  font-size: 15px;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: bold;
+  color: #363636;
 }
-
-.fa.fa-facebook-square.fa-4x:hover {
-  transform: scale(1.1 , 1.1);
-}
-
-.fa.fa-linkedin-square.fa-4x:hover {
-  transform: scale(1.1 , 1.1);
+.partieMail a {
+  margin-left: 10px;
+  color: #363636;
+  text-decoration: none;
 }
 /* Fin du Footer */
