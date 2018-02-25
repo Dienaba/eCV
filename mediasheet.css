@@ -22,15 +22,19 @@ body {
 }
 
 .presentation{
-  height: 50%;
+  height: 30vh;
   width: 100vw;
+}
+
+.formation{
+  height: 40vh;
 }
 
 .fa.fa-cogs.fa-5x {
   display: none;
 }
 .formation {
-  height: 50%;
+  height: 30%;
   width: 100vw;
   margin: 0;
 }
@@ -45,34 +49,19 @@ width: 100vw;
 }
 
 .experiences {
-  height: 50%;
+  height: 45vh;
+  margin: 15px; 
   width: 100vw;
 }
 
 .competences {
-  height: 50%;
+  height: 30vh;
   width: 100vw;
 }
 .fa.fa-code.fa-5x {
   display: none;
 }
 .loisirs{
-  height: 30%;
+  height: 30vh;
   width: 100vw;
-}
-.fa.fa-shopping-bag.fa-5x {
-
-}
-.fa.fa-film.fa-5x {
-
-}
-.fa.fa-book.fa-5x {
-
-}
-.fa.fa-music.fa-5x {
-
-}
-
-.footer {
-
 }
