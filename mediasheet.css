@@ -22,12 +22,8 @@ body {
 }
 
 .presentation{
-  height: 30vh;
+  height: 30%;
   width: 100vw;
-}
-
-.formation{
-  height: 40vh;
 }
 
 .fa.fa-cogs.fa-5x {
@@ -49,19 +45,24 @@ width: 100vw;
 }
 
 .experiences {
-  height: 45vh;
-  margin: 15px; 
+  height: 40%;
+  margin: 10px;
   width: 100vw;
 }
 
 .competences {
-  height: 30vh;
+  height: 20%;
   width: 100vw;
 }
 .fa.fa-code.fa-5x {
   display: none;
 }
 .loisirs{
-  height: 30vh;
+  height: 20%;
   width: 100vw;
 }
+
+
+.footer {
+  height: 20%
+  }
